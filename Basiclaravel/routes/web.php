@@ -26,3 +26,5 @@ Route::get('/item',[PageController::class, 'item'])->name('item');
 Route::get('/contact',[PageController::class, 'contact'])->name('contact');
 Route::get('/about',[PageController::class, 'about'])->name('about');
 Route::get('/profile',[PageController::class, 'profile'])->name('profile');
+
+Route::get('/Studentlist',[StudentController::class, 'Studentlist'])->name('StudentController');
